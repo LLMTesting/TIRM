@@ -1,13 +1,13 @@
-#Automatic Testing and Improvement for the Reasoning Ability of Large Language Models
+# Automatic Testing and Improvement for the Reasoning Ability of Large Language Models
 The repository is for the paepr "Automatic Testing and Improvement for the Reasoning Ability of Large Language Models", and TIRM is the abbreviation for our method.
 
-##Datasets
+## Datasets
 According to the reasoning patterns we propose, we use atomic sentences to generate test cases, and we put the atomic sentences we wrote in the folder "data".
 
-##Testing Subject
+## Testing Subject
 We test the most advanced LLM ChatGPT, and call the GPT-3.5 model through the API provided by openAI.
 
-##Our Approach
+## Our Approach
 Our method TIRM comprises the following three steps:
 
 (1)**Test generation.** We design six logical reasoning patterns to generate test cases, which follow the reasoning rules applied in boolean logic and are easy to understand for humans. We aim to employ generated test cases to detect whether LLMs have the essential reasoning ability.
@@ -25,6 +25,6 @@ We organize the codes in the repository according to RQs, and the codes of RQ1-3
 
 (3) RQ3 is the impact of the 4 model prompting methods on logical reasoning. This folder is divided into two parts according to the classification of the prompting methods, i.e., pre-prompting and post-prompting.
 
-#Snapshot
+# Snapshot
 
 We put the screenshots of the ChatGPT examples used in the paper in the snapshot folder, including the example in the motivation example and the two examples in RQ1.
