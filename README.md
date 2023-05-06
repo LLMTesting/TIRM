@@ -16,7 +16,7 @@ Our method TIRM comprises the following three steps:
 
 (3) **Model Prompting.** When logical reasoning errors are detected in the LLM, we hope to correct its error through reasonable prompting. For this reason, we design four different answer prompting methods and explore what kind of prompting methods are helpful to the LLM to correct the error.
 
-##Experiments
+## Experiments
 We organize the codes in the repository according to RQs, and the codes of RQ1-3 are stored in folders with corresponding names, the code is named according to the name of the inference pattern:
 
 (1) RQ1 is the test result of a single round of question and answer, and the code is stored in the "RQ1" folder.
