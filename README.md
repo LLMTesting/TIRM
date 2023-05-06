@@ -28,3 +28,7 @@ We organize the codes in the repository according to RQs, and the codes of RQ1-3
 # Snapshot
 
 We put the screenshots of the ChatGPT examples used in the paper in the snapshot folder, including the example in the motivation example and the two examples in RQ1.
+
+The snapshot in the motivation example:
+
+![motivation]( 'motivation')
