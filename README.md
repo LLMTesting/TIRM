@@ -10,11 +10,11 @@ We test the most advanced LLM ChatGPT, and call the GPT-3.5 model through the AP
 ## Our Approach
 Our method TIRM comprises the following three steps:
 
-(1)**Test generation.** We design six logical reasoning patterns to generate test cases, which follow the reasoning rules applied in boolean logic and are easy to understand for humans. We aim to employ generated test cases to detect whether LLMs have the essential reasoning ability.
+(1) **Test generation.** We design six logical reasoning patterns to generate test cases, which follow the reasoning rules applied in boolean logic and are easy to understand for humans. We aim to employ generated test cases to detect whether LLMs have the essential reasoning ability.
 
-(2)**Answer Evaluation.** In this step, we compare the answer of the LLM to the logical reasoning test with the expected answer we design. When the similarity between the two is lower than a certain threshold, we judge that the LLM has a wrong answer.
+(2) **Answer Evaluation.** In this step, we compare the answer of the LLM to the logical reasoning test with the expected answer we design. When the similarity between the two is lower than a certain threshold, we judge that the LLM has a wrong answer.
 
-(3)**Model Prompting.** When logical reasoning errors are detected in the LLM, we hope to correct its error through reasonable prompting. For this reason, we design four different answer prompting methods and explore what kind of prompting methods are helpful to the LLM to correct the error.
+(3) **Model Prompting.** When logical reasoning errors are detected in the LLM, we hope to correct its error through reasonable prompting. For this reason, we design four different answer prompting methods and explore what kind of prompting methods are helpful to the LLM to correct the error.
 
 ##Experiments
 We organize the codes in the repository according to RQs, and the codes of RQ1-3 are stored in folders with corresponding names, the code is named according to the name of the inference pattern:
