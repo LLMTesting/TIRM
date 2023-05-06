@@ -31,4 +31,10 @@ We put the screenshots of the ChatGPT examples used in the paper in the snapshot
 
 The snapshot in the motivation example:
 
-![motivation](https://github.com/LLMTesting/TIRM/blob/master/snapshot/motivation.pdf 'motivation')
+![motivation](https://github.com/LLMTesting/TIRM/blob/master/snapshot/motivation.png 'motivation')
+
+The snapshots in the results of RQ1:
+
+![motivation](https://github.com/LLMTesting/TIRM/blob/master/snapshot/RQ1_e1.png 'motivation')
+
+![motivation](https://github.com/LLMTesting/TIRM/blob/master/snapshot/RQ1_e2.png 'motivation')
